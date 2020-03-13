@@ -44,7 +44,7 @@ const LoginPage = () => (
         isSubmitting,
         isValidating
       }) => (
-        <Form className={styles.formStyle} onSubmit={onSubmit}>
+        <Form className={styles.formStyle} >
           <Field className={styles.inputStyle} type="email" name="email" />
           <ErrorMessage className={styles.error} name="email" component="div" />
           <Field className={styles.inputStyle} type="password" name="password" />
