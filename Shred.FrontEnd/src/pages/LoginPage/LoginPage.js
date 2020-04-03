@@ -3,6 +3,9 @@ import styles from './LoginPage.module.sass';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import arrow from '../../assets/img/arrow-left.png';
 import {Link} from 'react-router-dom';
+import {connect} from "react-redux";
+import {loginAction} from "../../redux/action/ActionCreators";
+
 
 const LoginPage = () => (
   <div className={styles.container}>

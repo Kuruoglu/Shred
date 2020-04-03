@@ -23,4 +23,9 @@ export const changePrewMonthAction = (month) => ({
 export const changeActivDayAction = (day) => ({
   type: action.CHANGE_ACTIVE_DAY,
   day
-})
+});
+
+export const loginAction = (data) => ({
+  type: action.LOGIN,
+  data
+});
